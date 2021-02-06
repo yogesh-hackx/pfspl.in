@@ -101,7 +101,13 @@ export default function Header() {
                     burgerButtonClassName={'hidden-ham-button'}
                 >
                     {menuItems.map(({ route, title }) => (
-                        <li className="mt-3 md:mt-0 md:ml-6" key={title}>
+                        <li
+                            className="mt-3 md:mt-0 md:ml-6"
+                            key={title}
+                            onClick={() =>
+                                setMobileMenuIsOpen(!mobileMenuIsOpen)
+                            }
+                        >
                             <Link href={route}>
                                 <a className="text-white">{title}</a>
                             </Link>
