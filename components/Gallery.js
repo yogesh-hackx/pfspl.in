@@ -37,7 +37,7 @@ const Gallery = () => {
                     '10',
                 ].map((item) => (
                     <img
-                        src={`/gallery/${item}.png`}
+                        src={`/gallery/${item}.jpg`}
                         className="keen-slider__slide slides"
                         key={item}
                     />
