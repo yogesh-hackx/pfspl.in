@@ -3,7 +3,7 @@ import { useInterval } from 'react-use';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const ListItems = [
-    { text: 'Canteen Services', img: '/canteen.png', current: true, id: 0 },
+    { text: 'Canteen Services', img: '/canteen.jpg', current: true, id: 0 },
     { text: 'Corporate Food', img: '/Corporate.jpg', current: false, id: 1 },
     { text: 'Outdoor Catering', img: '/Outdoor.jpg', current: false, id: 2 },
 ];
