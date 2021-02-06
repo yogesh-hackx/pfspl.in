@@ -23,7 +23,7 @@ const menuItems = [
     { title: 'Home', route: '/' },
     { title: 'About Us', route: '/about' },
     { title: 'Contact Us', route: '/contact' },
-    { title: 'Profile', route: '/profile' },
+    { title: 'Profile', route: '/Purnagiri_profile.pdf' },
 ];
 
 export default function Header() {
