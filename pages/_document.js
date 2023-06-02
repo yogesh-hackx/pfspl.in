@@ -21,6 +21,7 @@ class MyDocument extends Document {
               gtag('js', new Date());
   
               gtag('config', 'G-BMLPDVV17X');
+              console.log("loaded scripts");
             `}
           </Script>
           <Main />
