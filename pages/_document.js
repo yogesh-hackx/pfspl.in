@@ -11,7 +11,9 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-BMLPDVV17X" />
+        </Head>
+        <body>
+        <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-BMLPDVV17X" />
           <Script id="google-analytics" strategy="afterInteractive">
             {`
               window.dataLayer = window.dataLayer || [];
@@ -21,8 +23,6 @@ class MyDocument extends Document {
               gtag('config', 'G-BMLPDVV17X');
             `}
           </Script>
-        </Head>
-        <body>
           <Main />
           <NextScript />
         </body>
