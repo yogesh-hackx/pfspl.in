@@ -20,9 +20,12 @@
   "homepage": "https://github.com/taylorbryant/next-starter-tailwind#readme",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
+    "dotenv": "^16.1.4",
+    "eslint": "^8.42.0",
     "framer-motion": "^3.2.2-rc.1",
     "keen-slider": "^5.4.0",
     "next": "^11",
+    "nodemailer": "^6.9.3",
     "react": "17.0.1",
     "react-burger-menu": "^3.0.3",
     "react-dom": "17.0.1",
